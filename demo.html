@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <!-- <style>
+      div {
+        color: black;
+      }
+    </style> -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body
+    style="background-color: rgba(242, 246, 246, 0.806); color: rgb(11, 11, 11)"
+  >
+    <div class="title">
+      <h1>Registration Form</h1>
+      <p>this is registration form for user details</p>
+    </div>
+    <!-- This is the form HTML -->
+    <form action="./welcome.html">
+      <!-- First name input -->
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+
+      <!-- Last name input -->
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+
+      <!-- Email input -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" /><br />
+
+      <!-- Password input -->
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" /><br />
+
+      <!-- Age input -->
+      <label for="age">Age:</label><br />
+      <input type="number" id="age" name="age" /><br />
+
+      <!-- Radio buttons for favorite language -->
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+      <br />
+
+      <!-- Checkboxes for vehicles -->
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label>
+      <br />
+
+      <!-- Select element for subject -->
+      <label for="subject">Choose the subject</label>
+      <select name="subject" id="subject">
+        <option value="maths">Maths</option>
+        <option value="english">English</option>
+        <option value="computer science">CS</option>
+      </select>
+      <br />
+
+      <!-- Submit and reset buttons -->
+      <input type="submit" value="Submit" />
+      <br />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
