@@ -57,3 +57,17 @@ let message = greet();
 let message2 = greet("sai");
 console.log(message);
 console.log(message2);
+
+// exercises for practice
+//  write function for prime numbers which takes input number and returns whether its prime or not console the ans
+
+// write a function for factorial which takes input number and returns the factorial of that number console the ans
+
+// write a function for fibonacci series which takes input number and returns the fibonacci series of that number console the ans
+
+// create patterns using loops and conditionals like below
+// ****
+// * **
+// ** *
+// ****
+// create a function for above pattern which takes input number and returns the pattern console the ans
